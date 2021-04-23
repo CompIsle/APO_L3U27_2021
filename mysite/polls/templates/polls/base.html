@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html>
   <head>
@@ -7,11 +8,17 @@
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
     />
+    <link 
+      rel="stylesheet" 
+      href="{% static 'polls/style.css' %}"
+    />
   </head>
 
   <body>
     <div style="width:80%" class="container">
     {% block body %} 
+      ERROR? User templates are supposed to provide 
+      their own content!
     {% endblock body %}
     
     </div>

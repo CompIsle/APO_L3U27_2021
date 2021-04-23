@@ -1,4 +1,1 @@
 [{"model": "polls.question", "pk": 1, "fields": {"question_text": "What's new?", "pub_date": "2021-04-16T12:23:18.923Z"}}, {"model": "polls.question", "pk": 2, "fields": {"question_text": "Django, the best thing since sliced bread?", "pub_date": "2021-04-16T12:29:25.004Z"}}, {"model": "polls.choice", "pk": 1, "fields": {"question": 1, "choice_text": "The sky", "votes": 0}}, {"model": "polls.choice", "pk": 2, "fields": {"question": 1, "choice_text": "Not much", "votes": 2}}, {"model": "polls.choice", "pk": 3, "fields": {"question": 1, "choice_text": "Hacking again", "votes": 2}}, {"model": "polls.choice", "pk": 4, "fields": {"question": 2, "choice_text": "Yes", "votes": 5}}, {"model": "polls.choice", "pk": 5, "fields": {"question": 2, "choice_text": "No", "votes": 2}}]
-
-
-python manage.py loaddata fixtures.json
